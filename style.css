@@ -37,7 +37,8 @@ img {
     --Border-r: 10px;
     background-color: var(--White);
     border-radius: var(--Border-r);
-    width: 300px
+    width: 300px;
+    box-shadow: 0 9px 12px 2px hsla(222.5, 47%, 22.9%, 0.09)
 }
 .box_container .cover {
     margin: 0 auto;
