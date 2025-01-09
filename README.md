@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
+- Solution URL: https://www.frontendmentor.io/solutions/order-summary-card-3ewHeCQJgU
   
 - Live Site URL: https://alaa-mekibes.github.io/order-summary-component-frontend-mentor
 
