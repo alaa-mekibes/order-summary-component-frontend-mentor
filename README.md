@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/order-summary-card-3ewHeCQJgU
+- [Solution URL](https://www.frontendmentor.io/solutions/order-summary-card-3ewHeCQJgU)
   
-- Live Site URL: https://alaa-mekibes.github.io/order-summary-component-frontend-mentor
+- [Live Site URL](https://alaa-mekibes.github.io/order-summary-component-frontend-mentor)
 
 ## My process
 
@@ -37,6 +37,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Mobile First
 
 
 ## Author
