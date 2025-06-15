@@ -44,28 +44,28 @@ button {all: unset; cursor: pointer}
     max-width: 26rem;
     box-shadow: 0 9px 12px 2px var(--box-shadow)
 }
-.box_container .cover {
+.cover {
     margin: 0 auto;
     border-top-left-radius: var(--Border-r);
     border-top-right-radius: var(--Border-r);
     margin-bottom: 1.5rem
 }
-.box_container .intro {
+.intro {
     text-align: center;
     padding: 0 1.5rem;
 }
-.box_container .intro h1 {
+.intro h1 {
     font-size: 1rem;
     font-weight: 900;
     margin: .75rem auto;
     color: var(--Dark-blue)
 }
-.box_container .intro p {
+.intro p {
     font-size: var(--FontSize);
     color: var(--Desaturated-blue);
     font-weight: 500
 }
-.box_container .label {
+.label {
     margin: 1.25rem auto;
     display: flex;
     justify-content: space-between;
@@ -75,57 +75,58 @@ button {all: unset; cursor: pointer}
     width: 90%;
     border-radius: var(--Border-r);
 }
-.box_container .label .price {
+.price {
     display: flex;
     gap: 1rem
 }
-.box_container .label .price img {
-    width: 40px
+.price img {
+    width: 2.5rem
 }
-.box_container .label .price span {
+.price span {
     font-size: .85rem;
 }
-.box_container .label span:first-of-type {
+.label span:first-of-type {
     display: block;
     font-weight: 900;
     color: var(--Dark-blue)
 }
-.box_container .label span:last-of-type {
+.label span:last-of-type {
     color: var(--Desaturated-blue);
     font-weight: 700
 }
-.box_container .label a {
+.label a {
     font-size: .85rem;
     font-weight: 700;
     &:hover {
         text-decoration: none
     }
 }
-.box_container .next {
+.next {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     
 }
-.box_container .next button {
+.next button {
     font-size: .85rem;
     font-weight: 700;
     transition: .1s;
 }
-.box_container .next button:first-of-type {
+.next button:first-of-type {
+    --box-shadow: hsla(223, 47%, 23%, 0.205);
     color: var(--Very-pale-blue);
     background-color: var(--Bright-blue);
     padding: .75rem 0;
     width: 80%;
     text-align: center;
     border-radius: var(--Border-r);
-    box-shadow: 0 6px 12px 2px hsla(223, 47%, 23%, 0.205);
+    box-shadow: 0 6px 12px 2px var(--btn-shadow);
     &:hover {
         opacity: .7;
     }
 }
-.box_container .next button:last-of-type{
+.next button:last-of-type{
     color: var(--Desaturated-blue);
     margin-top: 1rem;
     margin-bottom: 1.5rem;
