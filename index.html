@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png">
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,28 +12,28 @@
     <title>Order summary component</title>
 </head>
 <body>
-    <main>
-        <section class="box_container">
+    <main class="main_container">
+        <section aria-label="order box" class="box_container">
             <img class="cover" src="images/night-road.jpg" alt="street">
-            <div class="intro">
+            <article class="intro">
             <h1>Order Summary</h1>
             <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
                 device anywhere you like!</p>
-            </div>
-            <div class="label">
+            </article>
+            <article aria-label="prices container" class="label">
                 <div class="price">
-                <img src="images/icon-music.svg" alt="icon">
+                <img aria-hidden="true" src="images/icon-music.svg" alt="icon">
                 <div class="detail">
                 <span>Annual Plan</span>
                 <span>$59.99/year</span>
                 </div>
                 </div>
-                <a href="#Change">Change</a>
-            </div>
-            <div class="next">
-                <a href="#proceed">Proceed to Payment</a>
-                <a href="#cancel">Cancel Order</a>
-            </div>
+                <button type="button">Change</button>
+            </article>
+            <article aria-label="choose your order status" class="next">
+                <button type="button">Proceed to Payment</button>
+                <button type="button">Cancel Order</button>
+            </article>
         </section>
     </main>
 </body>
