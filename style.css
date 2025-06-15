@@ -16,6 +16,7 @@
 }
 body {
     font-family: "Red Hat Display", serif;
+    padding: 1rem;
     background-color: var(--Pale-blue);
     background-image: url(images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
@@ -33,7 +34,7 @@ img {
     display: block;
     max-width: 100%
 }
-button {all: unset}
+button {all: unset; cursor: pointer}
 .box_container {
     --Border-r: 10px;
     --box-shadow: hsla(222.5, 47%, 22.9%, 0.09);
@@ -93,10 +94,9 @@ button {all: unset}
     color: var(--Desaturated-blue);
     font-weight: 700
 }
-.box_container .label button {
+.box_container .label a {
     font-size: .85rem;
     font-weight: 700;
-    text-decoration: 1px solid;
     &:hover {
         text-decoration: none
     }
